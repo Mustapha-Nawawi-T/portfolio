@@ -4,9 +4,131 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="./style.css" />
+        <script src="app.js"></script>
+        <script src="https://kit.fontawesome.com/db35ccf01c.js" crossorigin="anonymous"></script>
         <title>Personal Portfolio</title>
     </head>
     <body>
-        <h1>Hello World</h1>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="img/1337.png" class="logo"/>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header-text">
+                <p>Software Engineering student at 1337</p>
+                <h1>Hi, I'm <span>Mustapha</span><br>Annouaoui From Morocco</h1>
+            </div>
+        </div>
+        <!-- About -->
+        <div id ="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="img/mannouao.jpeg" />
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>
+                            ...
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>...1</span><br>...</li>
+                                <li><span>...1</span><br>...</li>
+                                <li><span>...1</span><br>...</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>...2</span><br>...</li>
+                                <li><span>...2</span><br>...</li>
+                                <li><span>...2</span><br>...</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>...3</span><br>...</li>
+                                <li><span>...3</span><br>...</li>
+                                <li><span>...3</span><br>...</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Services -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>...1</h2>
+                        <p>..................</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h2>...2</h2>
+                        <p>..................</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>...3</h2>
+                        <p>..................</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="Work">
+                        <img src="img/1337.png" />
+                        <div class="layer">
+                            <h3>APP1</h3>
+                            <p>...</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="Work">
+                        <img src="img/1337.png" />
+                        <div class="layer">
+                            <h3>APP2</h3>
+                            <p>...</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="Work">
+                        <img src="img/1337.png" />
+                        <div class="layer">
+                            <h3>APP3</h3>
+                            <p>...</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
+    <script>
+
+    </script>
 </html>
